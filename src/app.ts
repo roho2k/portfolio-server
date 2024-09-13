@@ -6,6 +6,7 @@ import corsOptions from './config/corsOptions';
 const app = express();
 app.use(cors(corsOptions));
 app.use(express.json());
+app.options('*', cors(corsOptions));
 
 app.use('/api', blogRoutes);
 
