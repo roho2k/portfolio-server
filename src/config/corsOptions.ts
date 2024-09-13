@@ -1,5 +1,5 @@
 const corsOptions = {
-	origin: ['https://www.rodneyho.com'],
+	// origin: ['https://www.rodneyho.com'],
 };
 
 export default corsOptions;
